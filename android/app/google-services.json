@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "578597603092",
+    "project_id": "project-donation-20a28",
+    "storage_bucket": "project-donation-20a28.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:578597603092:android:15ae55b9415b7c56846401",
+        "android_client_info": {
+          "package_name": "com.example.flutter_application_1"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAMvRUPxu4yvXkNqIVLBC9_AZRWqzxISLg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:578597603092:android:c32378cc3e68e09e846401",
+        "android_client_info": {
+          "package_name": "com.example.swap_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAMvRUPxu4yvXkNqIVLBC9_AZRWqzxISLg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

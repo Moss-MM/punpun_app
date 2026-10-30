@@ -1,0 +1,51 @@
+name: flutter_application_1
+description: "A new Flutter project."
+publish_to: 'none' 
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.12.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  firebase_core: ^4.15.0
+  firebase_auth: ^6.7.0
+  cloud_firestore: ^6.10.0
+  image_picker: ^1.2.4
+  firebase_storage: ^13.6.0
+  # เพิ่มแพ็กเกจฟอนต์สวยๆ
+  google_fonts: ^6.2.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+  # เพิ่มแพ็กเกจสำหรับทำไอคอนและหน้าโหลดเข้าแอป
+  flutter_launcher_icons: ^0.13.1
+  flutter_native_splash: ^2.4.0
+
+flutter:
+  uses-material-design: true
+  # เปิดใช้งานโฟลเดอร์รูปภาพ (ต้องมีรูป logo.png อยู่ในโฟลเดอร์ assets ก่อนนะ)
+  assets:
+    - assets/logo.png
+
+# ==========================================
+# ส่วนตั้งค่า App Icon (ไอคอนแอปบนหน้าจอมือถือ)
+# ==========================================
+flutter_launcher_icons:
+  android: true
+  ios: false
+  image_path: "assets/logo.png"
+  min_sdk_android: 21
+
+# ==========================================
+# ส่วนตั้งค่า Splash Screen (หน้าโลโก้ตอนกดเปิดแอป)
+# ==========================================
+flutter_native_splash:
+  color: "#2563EB" # สีพื้นหลัง (สีฟ้าพรีเมียมเข้ากับแอปเรา)
+  image: "assets/logo.png"
+  android: true
+  ios: false
